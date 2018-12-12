@@ -49,7 +49,7 @@ def ret_last_name(firstname):
       else:
          found = False   
    if found == False:
-      return "Error. No name found."
+      return "Error! No name found."
 
 def yesno(response):
    if response == "Y":
