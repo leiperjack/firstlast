@@ -36,7 +36,7 @@ people_string = '''
 data2 = json.loads(people_string)
 
 #print(type(data2["Information"]))
-#print
+#prints
 
 def ret_last_name(firstname):
    for i in data2 ["Information"]:
@@ -44,8 +44,10 @@ def ret_last_name(firstname):
       first = i["First_Name"]
       last = i["Second_Name"]
       if firstname == (first):
+         print("Hello, " + first + " " + last + ".") 
          return last
          found = True
+         
       else:
          found = False   
    if found == False:
@@ -63,13 +65,13 @@ def yesno(response):
 def func():
    firstname = raw_input("Enter Name: ")
    ret_last_name(firstname)
-   print("Hello, " + firstname + " " + ret_last_name(firstname) + ".") 
+   
    
    response = raw_input("Do you want to search for another name?(Y/n): ")
    yesno(response) 
    print yesno(response)  
       
-#func()
+func()
 
    
    
