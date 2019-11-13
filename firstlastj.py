@@ -29,6 +29,13 @@ people_string = '''
       "Age": "42",
       "Height": "6'2",
       "ID": "667"
+   },
+   {
+      "First_Name": "Keith",
+      "Second_Name": "Jones",
+      "Age": "42",
+      "Height": "17'2",
+      "ID": "668"
    }
       ]
 }
